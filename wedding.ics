@@ -17,18 +17,28 @@ UID:wedding-omar-alsubaie-20261008@invite
 DTSTAMP:20260905T000000Z
 DTSTART;TZID=Asia/Riyadh:20261008T200000
 DTEND;TZID=Asia/Riyadh:20261008T230000
-SUMMARY:حفل زفاف عمر عادل السبيعي
+SUMMARY:حفل زواج عمر بن عادل السبيعي
 LOCATION:قاعة اليزيه
-DESCRIPTION:يشرفنا حضوركم\nالموقع على الخرائط
- : https://maps.app.goo.gl/zRL7m8apCA8yVWJa6
+DESCRIPTION:يسر د. عادل بن محمد السبيعي و د. مح
+ مد بن سليمان الفهيد\nدعوتكم لحضور حفل زو
+ اج الابن عمر بن عادل السبيعي\nيشرفنا حضو
+ ركم\nالموقع على الخرائط: https://maps.app.goo.gl/zRL7
+ m8apCA8yVWJa6
 URL:https://maps.app.goo.gl/zRL7m8apCA8yVWJa6
+SEQUENCE:2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
+TRIGGER:-P1W
+ACTION:DISPLAY
+DESCRIPTION:تذكير: حفل زواج عمر بن عادل السبيع
+ ي بعد أسبوع
+END:VALARM
+BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:تذكير: حفل زفاف عمر عادل السبيعي غ
- دًا
+DESCRIPTION:تذكير: حفل زواج عمر بن عادل السبيع
+ ي غدًا
 END:VALARM
 END:VEVENT
 END:VCALENDAR
